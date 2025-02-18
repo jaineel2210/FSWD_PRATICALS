@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-600 p-4 text-white text-center font-semibold shadow-md flex justify-between px-6">
+        <h1 class="text-2xl">Pricing Plans</h1>
+        <div class="space-x-4">
+            <a href="#" class="hover:text-yellow-300">Home</a>
+            <a href="#" class="hover:text-yellow-300">Features</a>
+            <a href="#" class="hover:text-yellow-300">Contact</a>
+        </div>
+    </nav>
+    
+    <div class="container mx-auto p-6 text-center">
+        <h2 class="text-4xl font-bold text-gray-800 mb-6">Choose Your Plan</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-green-500 p-6 rounded-lg text-white hover:scale-105 transition-transform">
+                <h3 class="text-2xl font-semibold">Basic</h3>
+                <p class="mt-2 text-xl font-bold">$10/month</p>
+                <ul class="mt-4 space-y-2">
+                    <li>✔ 10GB Storage</li>
+                    <li>✔ Basic Support</li>
+                    <li>✔ Single User</li>
+                </ul>
+                <button class="mt-4 px-4 py-2 bg-white text-green-600 rounded hover:bg-gray-200">Select</button>
+            </div>
+            <div class="bg-blue-500 p-6 rounded-lg text-white scale-105 hover:scale-110 transition-transform">
+                <h3 class="text-2xl font-semibold">Premium</h3>
+                <p class="mt-2 text-xl font-bold">$30/month</p>
+                <ul class="mt-4 space-y-2">
+                    <li>✔ 50GB Storage</li>
+                    <li>✔ Priority Support</li>
+                    <li>✔ Up to 5 Users</li>
+                </ul>
+                <button class="mt-4 px-4 py-2 bg-white text-blue-600 rounded hover:bg-gray-200">Select</button>
+            </div>
+            <div class="bg-purple-500 p-6 rounded-lg text-white hover:scale-105 transition-transform">
+                <h3 class="text-2xl font-semibold">Enterprise</h3>
+                <p class="mt-2 text-xl font-bold">$50/month</p>
+                <ul class="mt-4 space-y-2">
+                    <li>✔ Unlimited Storage</li>
+                    <li>✔ 24/7 Support</li>
+                    <li>✔ Unlimited Users</li>
+                </ul>
+                <button class="mt-4 px-4 py-2 bg-white text-purple-600 rounded hover:bg-gray-200">Select</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-blue-700 text-white text-center p-4 mt-6 font-semibold shadow-md">
+        &copy; 2025 Pricing Table. All rights reserved.
+    </footer>
+</body>
+</html>
